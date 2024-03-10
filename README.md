@@ -9,18 +9,15 @@
 <div align="center">
 <!-- Profiles -->
 <a href="https://www.frontendmentor.io/profile/GiDDeRo">
-<img src="https://img.shields.io/badge/Profile-Gideon-black?style=for-the-badge&logo=frontend%20mentor&labelColor=black&color=white
-" alt="Gideon's Profile">
-</a>&nbsp;&nbsp;&nbsp;
-<!-- Status -->
-<a href="#">
-<img src="https://img.shields.io/badge/Status-completed-white?style=for-the-badge&labelColor=black&color=green
-">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.frontendmentor.io/challenges?difficulty=2">
-<img src="https://img.shields.io/badge/Difficulty-Junior-red?style=for-the-badge&labelColor=black&color=lime
-">
+<img alt="Profile" src="https://img.shields.io/badge/GiDDeRo-black?style=for-the-badge&logo=Frontend%20Mentor&logoColor=white&label=Profile&labelColor=black&color=white&link=https%3A%2F%2Fwww.frontendmentor.io%2Fprofile%2FGiDDeRo">
 </a>
+&nbsp;&nbsp;&nbsp;
+
+<!-- Status -->
+<img alt="Status" src="https://img.shields.io/badge/Completed-Lime?style=for-the-badge&logo=Frontend%20Mentor&logoColor=white&label=Status&labelColor=black&color=Lime">
+&nbsp;&nbsp;&nbsp;
+<img alt="Difficulty" src="https://img.shields.io/badge/Junior-green?style=for-the-badge&logo=Frontend%20Mentor&logoColor=white&label=Difficulty&labelColor=black&color=orange">
+
 </div>
 </div>
 
