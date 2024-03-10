@@ -42,8 +42,8 @@ ___
 ____
 |||
 | :------ | :-------- |
-| Solution URL: | |
-| Live Site URL: | |
+| Solution URL: | https://www.frontendmentor.io/solutions/interactive-card-details-form-qsIRQn6gQI |
+| Live Site URL: | https://www.frontendmentor.io/solutions/interactive-card-details-form-qsIRQn6gQI |
 ||| 
 
 ### The Challenge :man_technologist:
