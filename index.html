@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data-entry">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+<div class="main-container">
+  <div class="container-1"></div>
+
+  <div class="card-preview">
+    <div class="card-preview-front">
+        <div class="items">
+            <div class="circles">
+              <div id="big"></div>
+              <div id="small"></div>
+            </div>
+            
+            <div class="card-info">
+              <p id="cardDigits">0000&nbsp;0000&nbsp;0000&nbsp;0000</p>
+              <div class="name_date">
+                <p id="cardHolder_name">Jane Appleseed</p>
+                <p id="cardExpiry_date"><span id="month">00</span>/<span id="year">00</span></p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+  
+      <div class="card-preview-back">
+        <p id="cvc">000</p>
+    </div>
+  </div>
+
+  <div class="container-2">
+    <div class="sub-container-1">
+      <form action="" id="cardForm">
+        <div class="name">
+          <label for="name">Cardholder Name</label>
+          <input type="text" name="" id="name" placeholder="e.g. Jane Appleseed">
+          <small id="n_blank">Can't be blank</small>
+        </div>
+    
+        <div class="digits">
+          <label for="number"> Card Number</label>
+         <input type="text" name="" id="digits" placeholder="e.g. 1234 5678 9123 0000" maxlength="19">
+         <small id="wrongformat">Wrong format, numbers only</small>
+         <small id="d_blank">Can't be blank</small>
+        </div>
+
+        <div class="date_cvc">
+          <div class="date">
+            <label for="">Exp. Date (MM/YY)</label>
+            <div class="date_inputs">
+               <div>
+                <input type="number" name="" id="month_input" placeholder="MM" min="01" maxlength="2">
+                <small id="m_blank">Can't be blank</small>
+                <small id="wrongMonthInput">Incorrect Month</small>
+               </div>
+
+                <div>
+                  <input type="number" name="" id="year_input" placeholder="YY" maxlength="4">
+                  <small id="y_blank">Can't be blank</small>
+                  <small id="wrongYearInput">Incorrect year</small>
+                </div>
+            </div>
+          </div>
+      
+          <div class="cvc">
+            <label for="cvc">CVC</label>
+            <input type="text" id="cvc_input" placeholder="e.g. 123" maxlength="3">
+            <small id="c_blank">Can't be blank</small>
+          </div>
+        </div>
+    
+        <button type="submit" id="btn1">Confirm</button>
+      </form>
+    </div>
+
+  <!-- Completed state start -->
+
+    <div class="sub-container-2">
+      <div>
+        <img src="./images/icon-complete.svg" alt="checkmark" id="checkmark">
+        <p>Thank you!</p>
+        <p>We've added your card details</p>
+      </div>
+      <button id="btn2">Continue</button>
+    </div>
+  </div>
+</div>
+  
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  Coded by <a href="#">Gideon</a>.</p>
+  </div>
+
+  <script src="test.js"></script>
+</body>
+</html>
